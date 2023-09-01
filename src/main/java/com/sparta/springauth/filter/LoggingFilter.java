@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 import java.io.IOException;
 
 @Slf4j(topic = "LoggingFilter")
-@Component
+//@Component
 @Order(1) // 순서 정해주는 것, 먼저 실행하게 해준다.
 public class LoggingFilter implements Filter {
     @Override
